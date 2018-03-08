@@ -6,17 +6,25 @@
   </head>
   <body>
     <header class="main-header">
-      <a class="main-header-logo">
-       <img src="http://placehold.it/150x100" width="150" height="50" alt="Логотип интернет-магазина Техномарт ">
-      </a> 
-      <a href="#">Закладки</a>
-      <a href="#">Корзина</a>
-      <a href="#">Оформить заказ</a>
-       <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
-      <a href="#">+7(812)555-05-55</a>
-       <p> г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
+      <div class="header-top">
+        <div class="container">
+          <a class="header-logo" href="#"><img src="http://placehold.it/150x100" width="150" height="50" alt="Логотип интернет-магазина Техномарт ">
+          </a> 
+            <form class="header-search" action="">
+              <input type="text">
+            </form>                   
+          <a href="#">Закладки:0</a>
+          <a href="#">Корзина:0</a>
+          <a href="#">Оформить заказ</a>
+         </div> 
+      </div>
+      <div class="container">
+        <p>Интернет-магазин строительных материалов и инструментов для ремонта</p>
+          <a href="#">+7(812)555-05-55</a>
+        <p> г. Санкт-Петербург, ул.Б.Конюшенная, д.19/8</p>
          <a href="#">Войти</a>
          <a href="#">Регистрация</a>
+      </div>
       <nav class="main-navigation">
         <ul class="site-navigation">
           <li> <a href="#">Главная</a></li>
@@ -32,16 +40,76 @@
     <main class="container">
       <h1 class="visually-hidden">Интернет-магазин «Техномарт»</h1>
       <section class="features">
-        <h2 class="visually-hidden"Разделы></h2>
+        <div class="container">
+        <h2 class="visually-hidden">РАЗДЕЛЫ</h2>
         <ul class="features-list">
-          <li> <a href="#">Материалы</a></li>
-          <li> <a href="#">Инструмент</a></li>
-          <li> <a href="#">Техника</a></li>
-          <li> <a href="#">Дрели</a></li>
-          <li> <a href="#">Скидки 50%</a></li>
-          <li> <a href="#">Доставка</a></li>
+          <li> <p>Материалы</p><a href="#">на любой вкус</a></li>
+          <li> <p>Инструмент</p><a href="#">на все случаи</a></li>
+          <li> <p>Техника</p><a href="#">для стройки</a></li>
+          <li> <p>Дрели</p><a href="technomart-catalog.psd">открыть каталог</a></li>
+          <li> <p>Скидки 50%</p><a href="#">на 350 товаров</a></li>
+          <li> <p>Доставка</p><a href="#">бесплатно</a></li>
         
         </ul>
+        </div>
+      </section>
+      <section class="popular goods">
+        <div class="container">
+        <h2>ПОПУЛЯРНЫЕ ТОВАРЫ:</h2>
+        <a href="#">Все популярные товары</a>
+        <ul class="popular goods-list">
+          <li> <a href="#">Перфоратор BOSCH BFG 9000 </a><span>32500 Р.</span><p>25500 Р.</p></li>
+          <li> <a href="#">Перфоратор BOSCH BFG 3000 </a><span>22500 Р.</span><p>15500 Р.</p></li>
+          <li> <a href="#">Перфоратор BOSCH BFG 6000 </a><span>30500 Р.</span><p>25500 Р.</p></li>
+          <li> <a href="#">Перфоратор BOSCH BFG 2000 </a><p>12500 Р.</p></li>
+        </ul>
+        </div>
+      </section>
+      <section class="popular producers">
+        <div class="container">
+        <h2>ПОПУЛЯРНЫЕ ПРОИЗВОДИТЕЛИ:</h2>
+        <a href="#">Все производители</a>
+         <ul class="popular producers-list">
+          <li> <a href="#"><img src="BOSCH.png" alt="Бош"></a></li>
+          <li> <a href="#"><img src="Makita" alt="Макита"></a></li>
+          <li> <a href="#"><img src="DeWALT" alt="ДеВальт"></a></li>
+          <li> <a href="#"><img src="Интерскол" alt="Интерскол"></a></li>
+          <li> <a href="#"><img src="Hitachi" alt="Хитачи"></a></li>
+          <li> <a href="#"><img src="LG" alt="ЭлДжи"></a></li>
+          <li> <a href="#"><img src="AEG" alt="АЕГ"></a></li>
+          <li> <a href="#"><img src="Metabo" alt="Метабо"></a></li>
+          </ul>
+        </div>  
+      </section>
+      <section class="services">
+        <div class="container">
+          <p>Хороший интернет-магазин отличается от плохого не только ценами! Мы стараемся изо всех сил, чтобы сделать ваши покупки приятными.</p>
+             <div> Доставка </div>
+             <div> Гарантия </div>
+             <div> Кредит </div>
+               <h2>Доставка</h2>
+                 <p>Мы с удовольствием доставим ваш товар прямо к вашему подъезду совершенно бесплатно!Ведь мы неплохо заработаем, поднимая его на ваш этаж!</p>
+                   <img src="Грузовик">
+      <section class="about us">
+        <div class="container"> 
+          <h2>КОМПАНИЯ «ТЕХНОМАРТ»</h2>
+          <p>Настоящий мужской шоппинг начинается здесь! Огромный выбор товаров для ремонта и строительства не оставит равнодушными любителей сэкономить на гастарбайтерах.</p>
+          <p>Мы можем доставить ваш товар в самые отдаленные точки России! Техномар работает со многими транспортными компаниями:</p>
+            <ul>
+              <li> Деловые линии</li>
+              <li> Автотрейдинг</li>
+              <li> ЖелДорЭкспедиция</li>
+            </ul>
+          <a href="#">ПОДРОБНЕЕ О КОМПАНИИ</a>
+        </div>    
+      </section>
+      <section class="contacts">
+        <div class="contacts">
+          <h2>КОНТАКТЫ</h2>
+            <p>Вы можете забрать товар сами, заехав в наш офис:</p>
+              <a href="#"><img src="Карта.png" alt="Как проехать"></a>
+                <a href="#">ЗАБЛУДИЛИСЬ? НАПИШИТЕ НАМ!</a>
+        </div>
       </section>
     
     </main>
